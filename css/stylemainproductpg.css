@@ -1,0 +1,43 @@
+
+     .container1{
+        display: grid;
+        margin: 4%;
+        text-align: center;
+        grid-template-columns: repeat(3, auto);
+        grid-gap: 4rem;
+    }
+    .item1{
+        box-shadow: 2px 2px 20px black;
+        display: inline-block;
+        border-radius: 5px; 
+        margin: 2%;
+    
+    }
+    .image img{
+        width: 100%;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+  
+}
+    button{
+             
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding:10px;
+         }
+    button:hover{
+        background-color: black;
+        color: white;
+        transition: .5s;
+        cursor: pointer;
+             }
+  
